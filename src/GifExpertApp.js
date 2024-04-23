@@ -4,11 +4,7 @@ import { AddCategory } from "./components/AddCategory";
 export const GifExpertApp = () => {
   //const categories = ["OnePunch", "Samuray", "Dragon Ball"];
 
-  const [categories, setCategories] = useState([
-    "OnePunch",
-    "Samuray",
-    "Dragon Ball",
-  ]);
+  const [categories, setCategories] = useState(["OnePunch"]);
 
   const handleAdd = () => {
     // categories.push("hunterX");
