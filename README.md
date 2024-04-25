@@ -1,8 +1,8 @@
 # Aplicacion CRUD con node y react
 
-Se realiza un formulario realizado en react el envia los datos mediante Node y los guarda en la base de datos y lo muestra  en una tabla.
+Esta es una aplicacin pequea pero muy ilustrativa que explica cmo utilizar React + customHooks para poder resolver necesidades en especfico que podremos re-utilizar despues.
 
-### Ejemlo de formulario de  ABM
+### ●	Custom Hooks
 
 ![](https://res.cloudinary.com/dv6nijgvd/image/upload/v1713318611/nodeANDreact/qk1jz4e8zwp6vi1wy11a.png)
 
