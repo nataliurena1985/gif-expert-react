@@ -23,21 +23,15 @@ Esta es una aplicacin pequea pero muy ilustrativa que explica cmo utilizar React
 ####COMANDOS para el back y el front
 
 ```
-PARA CREAR LAS CARPETAS
-mkdir client
-mkdir server
 
 
-server  npm install cors
-        npm install
 
 
 client
-         npm install react bootstrap
+        
          npm install
 
-MySQL
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+
 
 
  PARA CORRER
@@ -45,9 +39,6 @@ CLIENT
 npm start
 
 
-SERVER
-
-node index.js
 
 
 para volver
@@ -55,17 +46,17 @@ control c
 ```
 
 ```javascript
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
-import { store } from "./app/store";
-import { Provider } from "react-redux";
+
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import { GifExpertApp } from './GifExpertApp';
+
+import './index.css';
 
 ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-  document.getElementById("root")
+  <GifExpertApp />,
+  document.getElementById('root')
 );
 ```
