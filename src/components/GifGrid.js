@@ -1,13 +1,15 @@
-import React, { useState, useEffect } from "react";
-import { GifGridItem } from "./GifGridItem";
-import { GetGifs } from "../helpers/getGifs";
+import React from "react";
+import { useFetchGifs } from "../hooks/useFetchGifs";
+// import { GifGridItem } from "./GifGridItem";
+// import { GetGifs } from "../helpers/getGifs";
 
 export const GifGrid = ({ category }) => {
-  const [images, setImages] = useState([]);
+  const { loading } = useFetchGifs();
+  // const [images, setImages] = useState([]);
 
-  useEffect(() => {
-    GetGifs(category).then(setImages);
-  }, [category]);
+  // useEffect(() => {
+  //   GetGifs(category).then(setImages);
+  // }, [category]);
 
   // const GetGifs = async () => {
   //    const url = `https://api.giphy.com/v1/gifs/search?q=${encodeURI(
@@ -31,11 +33,14 @@ export const GifGrid = ({ category }) => {
   return (
     <>
       <h3>{category}</h3>
-      <div className="card-grid">
+
+      {loading ? "cargando..." : "data cargada"}
+
+      {/*  <div className="card-grid">
         {images.map((img) => (
           <GifGridItem key={img.id} {...img} />
         ))}
-      </div>
+      </div>  */}
     </>
   );
 };
