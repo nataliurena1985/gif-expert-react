@@ -22,10 +22,18 @@ Esta es una aplicacin pequea pero muy ilustrativa que explica cmo utilizar React
 
 ![](https://res.cloudinary.com/dv6nijgvd/image/upload/v1713318611/nodeANDreact/qk1jz4e8zwp6vi1wy11a.png)
 
-###[Link url](https://gif-expert-react.vercel.app/) 
-###[Reactjs.org-Estructura-de-directorios](https://es.reactjs.org/docs/faq-structure.html)
+[Link url](https://gif-expert-react.vercel.app/) 
+
+
+[Reactjs.org-Estructura-de-directorios](https://es.reactjs.org/docs/faq-structure.html)
+
+
 [Estructura-nombres-de-folders-y-componentes-en-React-Hackernoon.com](https://hackernoon.com/structuring-projects-and-naming-components-in-react-1261b6e18d76)
+
+
 [Giphy-Developers-Search-Endpoint](https://developers.giphy.com/docs/api/endpoint#search)
+
+
 [Animate.css](https://animate.style/)
 
 ####COMANDOS para el back y el front
